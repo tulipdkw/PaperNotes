@@ -56,6 +56,6 @@ $$
 
 ## SAHs: An Efficient andGeneralizable LVLMDefender
 
-方法步骤：
 1. 定位 SAs：从 1-shot 开始逐步增加训练探针，重复20次取均值。选取 top-k 个准确率最高且稳定的头作为 Safety Heads $S_M^k$
-2. 训练检测器：收集 SAs 在训练集上的激活
+2. 训练检测器：收集 SAs 在训练集上的激活值，k个头的激活向量拼接，然后训练逻辑回归二分类器 $G_M(\cdot)$
+3. 在模型生成第一个 token 前向传播时同步计算判断结果，如果判定为恶意则追加 indicating prompt 来引导模型拒绝
