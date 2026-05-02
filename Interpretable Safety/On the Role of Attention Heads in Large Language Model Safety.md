@@ -38,4 +38,13 @@ $$对于一条 harmful query，以此消融 attention 部分的每个 head，计
 #### Ships 实验：
 ![[Pasted image 20260502164435.png]]
 + 数据集：AdvBench、JailbreakBench、Malicious Instruct
-+ 模型：Llama-2-7b、Vicuna
++ 模型：Llama-2-7b、Vicuna-7b-v1.5
++ 横轴：Vanilla 正常输入，Greedy 消融后贪心解码，Top-5 消融后 Top-5 解码
+Ablation Head 选取：把 dataset 里面每一个 query 都测一次 Ships Score，取得最高分次数最多的 head 作为这个 dataset 对应的 safety head 被消融。
+效果：用 UA 在 llama2 上的效果最明显， 消融后每个 setting 下的 ASR 都显著升高。
+
+
+## Sahara Algorithm
+
+#### 泛化的 Ships Score（数据集层）：
+
