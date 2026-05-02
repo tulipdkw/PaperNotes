@@ -17,8 +17,25 @@ https://arxiv.org/abs/2410.13708
 ## Ships Score
 
 提出了两种对 attention heads 进行消融（ablation）的方法：
-#### UA：无差别注意力
+#### UA均匀注意力：
 $$
 h_i^{mod} = \text{Softmax} \left( \frac{\epsilon W_q^i W_k^{iT}}{\sqrt{d_k/n}} \right) W_v^i = A W_v^i,
 $$
-#### SC：贡献缩放
+在计算 Q\*K 时乘上一个极小的 epsilon，目的是==破坏这个头从输入序列中提取特征的能力==。附录中证明了等式的右侧部分，可化简实验。
+
+#### SC贡献缩放：
+$$
+h_i^{mod} = \text{Softmax} \left( \frac{W_q^i W_k^{iT}}{\sqrt{d_k/n}} \right) \epsilon W_v^i.
+$$
+在乘以 W 矩阵时乘 epsilon，==线性缩小这个 head 的输出贡献==。
+
+
+#### Ships Score 的计算：
+$$
+\text{Ships}(q_{\mathcal{H}}, \theta_{h_i^l}) = \mathbb{D}_{\text{KL}} \left( p(q_{\mathcal{H}}; \theta_{\mathcal{O}}) \parallel p(q_{\mathcal{H}}; \theta_{\mathcal{O}} \setminus \theta_{h_i^l}) \right),
+$$对于一条 harmful query，以此消融 attention 部分的每个 head，计算消融前后的模型输出概率和正常情况下的 KL 散度即为 ==这个head对这条query的Ships分数==。
+
+#### Ships 实验：
+![[Pasted image 20260502164435.png]]
++ 数据集：AdvBench、JailbreakBench、Malicious Instruct
++ 模型：Llama-2-7b、Vicuna
