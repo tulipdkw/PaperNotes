@@ -40,9 +40,10 @@
 
 ### Interpretable Safety
 
-|论文标题|状态|备注|
-|---|---|---|
-|_(待填充)_|—|—|
+|                                             论文标题                                              |   状态   |    从夯到拉    |
+| :-------------------------------------------------------------------------------------------: | :----: | :--------: |
+|                 On the Role of Attention Heads in Large Language Model Safety                 | `✅ 读完` | 🌟🌟🌟🌟🌟 |
+| Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models | `✅ 读完` |    🌟🌟    |
 
 ### VLM Safety
 

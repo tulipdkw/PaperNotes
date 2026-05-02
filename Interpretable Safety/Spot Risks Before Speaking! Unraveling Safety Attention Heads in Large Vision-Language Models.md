@@ -49,4 +49,5 @@ $$
 ![[Pasted image 20260502232616.png]]
 （a）只用 MM-SafetyBench 中原始 harmful text 输入
 （b）用 MM-SafetyBench 的 SD+TYPO 输入
-（C）用 https://arxiv.org/abs/2402.02207 （ICML 2024）再次做 Safety Alignment 后
+（C）用 https://arxiv.org/abs/2402.02207 （ICML 2024）再次做 SFT 后用 SD-TYPO输入
+ 高准确率头和拒绝率变化趋势一致。
