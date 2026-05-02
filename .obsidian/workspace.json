@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
+                "file": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models"
+              "title": "On the Role of Attention Heads in Large Language Model Safety"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md",
+                "file": "AI Reading Prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "On the Role of Attention Heads in Large Language Model Safety"
+              "title": "AI Reading Prompt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,12 +220,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d51f9f417ff411dc",
+  "active": "6c183770a2f8b823",
   "lastOpenFiles": [
-    "Interpretable Safety/Images/Pasted image 20260502164435.png",
-    "AI Reading Prompt.md",
+    "Interpretable Safety/Images/Pasted image 20260502213230.png",
     "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
+    "AI Reading Prompt.md",
     "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md",
+    "Interpretable Safety/Images/Pasted image 20260502211622.png",
+    "Interpretable Safety/Images/Pasted image 20260502164435.png",
     "Interpretable Safety/Images/Pasted image 20260502162521.png",
     "Interpretable Safety/Images/Pasted image 20260502155107.png",
     "未命名",
