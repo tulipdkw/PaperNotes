@@ -47,4 +47,10 @@ Ablation Head 选取：把 dataset 里面每一个 query 都测一次 Ships Scor
 ## Sahara Algorithm
 
 #### 泛化的 Ships Score（数据集层）：
+$$
+\mathrm{Ships}(Q_{\mathcal{H}}, h_i^l) = \sum_{r=1}^{r_{main}} \phi_r = \sum_{r=1}^{r_{main}} \cos^{-1} \left( \sigma_r(U_{\theta}^{(r)}, U_{\mathcal{A}}^{(r)}) \right),
+$$
+对于 Harmful Dataset，取出每个样本输入到 LLMs 中后顶层的残差激活 a（位置：输入最后一个token，输出开始之前），堆叠成矩阵 M，对齐应用 SVD 分解 $\text{SVD}(M)=U \Sigma V^T$。计算每个 Attention Head 消融之后和正常情况下的 U 矩阵前 r 个主成分的向量夹脚之和，作为Ships Score。
 
+#### Sahara 算法：
+贪心策略，迭代 S 次
