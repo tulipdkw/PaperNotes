@@ -33,9 +33,20 @@ $$
 
 ![[Pasted image 20260502225844.png]]
 减少训练样本 10% → 1% → 2 shots，大多数头准确率下降，但有少数头仍保持高准确率 + 低方差，表明他们捕捉到了最本质的安全相关表征，定义为 Safety heads。
+![[Pasted image 20260502232410.png]]
+（a）横轴：均值准确率，纵轴：方差。Top-32头集中在高准确率、低方差区域，而其他头则分散。
+（b）t-SNE可视化，top-32头的激活值能将恶意和良性样本清晰分开。
 
 #### Finding 3：Safety Heads 就是安全护盾
 
 ![[Pasted image 20260502230558.png]]
 
-（a）重点对比随机删除32头和 0.1% 训练数据
+（a）重点对比随机删除 32 头和 0.1% 探针得到的 top-32 头。top-32 在通用性能（MM-Vet）不变的情况下削弱了 15% 的安全性能；而随机 32 头是整个模型都破坏了，不能说明问题。合起来说明Safety Heads 是安全功能与通用性能解耦的。
+（b）从 top-4 增加到 top-64，拒绝率持续上升，但是到 32+ 之后通用性能被破坏。
+
+#### Finding 4：引入视觉模态导致了 Safety Heads 数量的减少
+
+![[Pasted image 20260502232616.png]]
+（a）只用 MM-SafetyBench 中原始 harmful text 输入
+（b）用 MM-SafetyBench 的 SD+TYPO 输入
+（C）用 https://arxiv.org/abs/2402.02207 （ICML 2024）再次做 Safety Alignment 后
