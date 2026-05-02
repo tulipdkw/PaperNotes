@@ -9,12 +9,12 @@
       "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "AI Reading Prompt",
       "path": "AI Reading Prompt.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     }
   ],
   "omittedPaths": [],
