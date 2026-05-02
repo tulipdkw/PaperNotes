@@ -1,7 +1,7 @@
 `LLMs` 
 `Safety Attention Heads`
 https://arxiv.org/abs/2410.13708
-
+---
 ![[Pasted image 20260502162521.png]]
 ## MindSet
 
@@ -14,6 +14,7 @@ https://arxiv.org/abs/2410.13708
 	2. 预训练对安全头的形成很重要
 	3. 消融安全头不影响 helpfulness
 
+---
 ## Ships Score
 
 提出了两种对 attention heads 进行消融（ablation）的方法：
@@ -43,7 +44,7 @@ $$对于一条 harmful query，以此消融 attention 部分的每个 head，计
 Ablation Head 选取：把 dataset 里面每一个 query 都测一次 Ships Score，取得最高分次数最多的 head 作为这个 dataset 对应的 safety head 被消融。
 效果：用 UA 在 llama2 上的效果最明显， 消融后每个 setting 下的 ASR 都显著升高。
 
-
+---
 ## Sahara Algorithm
 
 #### 泛化的 Ships Score（数据集层）：
@@ -60,6 +61,7 @@ $$
 （a）安全头之间存在协同机制，2～3个头的组合达到最佳效果。
 （b）展示了 llama-2 在两个数据集上单独消融安全头时的ASR，表明安全头的稀疏性。
 
+---
 ## In-depth Analysis
 
 ![[Pasted image 20260502213230.png]]（上：Dataset Ships；下：Ships）
