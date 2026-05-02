@@ -51,3 +51,11 @@ $$
 （b）用 MM-SafetyBench 的 SD+TYPO 输入
 （C）用 https://arxiv.org/abs/2402.02207 （ICML 2024）再次做 SFT 后用 SD-TYPO输入
  高准确率头和拒绝率变化趋势一致。
+
+---
+
+## SAHs: An Efficient andGeneralizable LVLMDefender
+
+方法步骤：
+1. 定位 SAs：从 1-shot 开始逐步增加训练探针，重复20次取均值。选取 top-k 个准确率最高且稳定的头作为 Safety Heads $S_M^k$
+2. 训练检测器：收集 SAs 在训练集上的激活
