@@ -79,3 +79,25 @@ $$
 1. reverse refusal：保持低 refusal rate
 2. reverse harmful：refusal rate 冲高但不明显
 3. refusal：refusal rate 明显冲高
+
+#### Section 3 总结：逻辑梳理
+
+3.2：聚类观察——两个位置编码的东西不一样
+3.3：依旧是观察—— harmful 和 refusal 在模型 belief 中的不一致导致了最终结果
+3.4：尝试回答—— harmful belief 能不能影响拒绝行为？也能。
+3.5：最终回答——两种方向的拒答机制是否有根本上的区别？是的。
+
+---
+## Analyzing Jailbreak via Harmfulness
+
+核心发现：不同 Jailbreak Method 在 LLMs 内部发生的机制不同
+![[Pasted image 20260504004127.png]]
+Adversarial suffix（GCG）：harmful belief 高，但 refusal belief 被压低 → 只是关掉了拒绝开关，模型内部仍然"知道"这是有害的。
+Adversarial template（模板包装）：类似，主要靠压制拒绝信号。
+Persuasion（说服重写）：harmful belief 本身变低，进入负区间 → 这类越狱真正改变了模型对内容有害性的判断，让模型"相信"这个请求是合理的。
+
+---
+
+## Latent Guard
+
+**设计**：非常简单。给定一条输入指令，计算 Δ_harmful（§3.3），分数为正则判断为有害，为负则判断为无害。聚类中心只需要从训练集采样 100 条有害 + 100 条无害指令来建立。
