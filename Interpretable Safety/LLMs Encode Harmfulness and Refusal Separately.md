@@ -40,7 +40,20 @@ Step 3：观察 refused benign 和 accepted harmful 落在哪个聚类
 + 在 $t_{inst}$，refused benign 更靠近 accepted benign，accepted harmful 更靠近 refused harmful。说明 $t_{inst}$ 这个位置的 hidden state 可以用来区分 benign 和 harmful；
 + 在 $t_{post-inst}$，refused benign 更靠近 refused harmful，accepted harmful 更靠近 accepted benign。说明 $t_{post-inst}$ 这个位置的 hidden state 导致了 refuse 还是 accept。
 
-#### 提取方向
+#### harmful 信念和 refusal 信念的相关性分析
+
+定义量化每条指令的两个信念分数，分数越高，代表模型认为这条 query 越 harmful / 越该 refuse：
+$$
+\Delta_{\text{harmful}} = \text{Avg}(s^l(h^l_{t_{\text{inst}}})) = \frac{1}{L} \sum_{l=1}^{L} (\text{cos\_sim}(h^l_{t_{\text{inst}}}, \mu^{l, t_{\text{inst}}}_{\text{harmful}}) - \text{cos\_sim}(h^l_{t_{\text{inst}}}, \mu^{l, t_{\text{inst}}}_{\text{harmless}})),
+$$
+$$
+\Delta_{\text{refuse}} = \text{Avg}(s^l(h^l_{t_{\text{post-inst}}})) = \frac{1}{L} \sum_{l=1}^{L} (\text{cos\_sim}(h^l_{t_{\text{post-inst}}}, \mu^{l, t_{\text{post-inst}}}_{\text{refuse}}) - \text{cos\_sim}(h^l_{t_{\text{post-inst}}}, \mu^{l, t_{\text{post-inst}}}_{\text{accept}})).
+$$
+
+
+#### harmful 和 refusal 方向都可以诱发拒绝行为
+
+分别提取 refusal 和 harmful 的 hidden state 向量
 
 #### 因果证明：reply inversion tasks
 
