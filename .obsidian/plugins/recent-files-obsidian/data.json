@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "On the Role of Attention Heads in Large Language Model Safety",
-      "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
-    },
-    {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
       "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
+    },
+    {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
+      "basename": "On the Role of Attention Heads in Large Language Model Safety",
+      "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
     },
     {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
@@ -23,10 +27,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
     }
   ],
   "omittedPaths": [],
