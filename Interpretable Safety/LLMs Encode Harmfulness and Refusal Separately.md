@@ -19,3 +19,4 @@ Contributions:
 
 ## Decoupling Harmfulness from Refusal
 
+#### Observation：去除后缀 token 会削弱拒绝能力
