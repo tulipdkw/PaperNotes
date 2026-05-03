@@ -1,5 +1,6 @@
 `LVLMs` 
 `Safety Attention Heads`
+`Inference-time Defense`
 https://arxiv.org/pdf/2501.02029
 >Related:
 >[[On the Role of Attention Heads in Large Language Model Safety]]
