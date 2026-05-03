@@ -70,6 +70,12 @@ $$
 
 ![[Pasted image 20260503235226.png]]
 
-（a）对无害指令分别沿 harmful 和 refusal 方向 steering：
+（a）对无害指令分别沿以下方向 steering：
 1. harmful：让模型认为指令有害导致 refusal rate 下降了
-2. refusal：
+2. refusal：模型保持拒绝，高 refusal rate
+3. reverse refusal：降低了模型的 refusal rate
+
+（b）对有害指令分别沿以下方向 steering：
+1. reverse refusal：保持低 refusal rate
+2. reverse harmful：refusal rate 冲高但不明显
+3. refusal：refusal rate 明显冲高
