@@ -20,3 +20,7 @@ Contributions:
 ## Decoupling Harmfulness from Refusal
 
 #### Observation：去除后缀 token 会削弱拒绝能力
+
+把 \[/INST\] 等模板后缀去除，拒绝率大幅下降。说明拒绝行为对后缀 token 存在强烈依赖。
+
+
