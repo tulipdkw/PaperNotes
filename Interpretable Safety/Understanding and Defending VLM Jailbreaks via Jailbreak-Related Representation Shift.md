@@ -39,4 +39,5 @@ https://aclanthology.org/2025.findings-acl.186.pdf
 #### CMRM 算法
 
 ##### Step 1：提取偏移向量
-1. Dataset-Level：$v^l_{data}=PCA({})$
+1. Dataset-Level：$\mathbf{v}_{\text{data}}^l = \text{PCA} \left( \left\{ \mathbf{h}_t^{l(i)} - \mathbf{h}_c^{l(i)} \right\}_{i=1}^N \right)_{\text{第一主成分}}$
+2. Sample-Level：$\mathbf{v}_{\text{sample}}^{l(i)} = \mathbf{h}_{t}^{l(i)} - \mathbf{h}_{c}^{l(i)}$
