@@ -72,3 +72,18 @@ $$
 
 #### 用 JRS 解释 Jailbreak
 
+##### Phenomenon 1：图像中有害视觉信息越丰富，ASR 越高
+![[Pasted image 20260505205434.png]]
+
+对 SD 图像施加不同程度的高斯噪声，结果表明 JRS 随着有效信息增加而单调增大，ASR同步上升
+
+##### Phenomenon 2：图像与文本语义相关性越高，ASR 越高
+![[Pasted image 20260505205620.png]]
+
+用 CLIP Similarity 衡量图文相似度，分成 Sample-Level 和 Dataset-Level。结果显示相似度越大，JRS 越高，ASR 也越高。
+
+---
+
+## JRS-Rem
+
+#### 算法设计
