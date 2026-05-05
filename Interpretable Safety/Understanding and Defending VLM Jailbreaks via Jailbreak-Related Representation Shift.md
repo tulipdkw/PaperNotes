@@ -39,5 +39,10 @@ https://aclanthology.org/2025.findings-acl.186.pdf
 #### CMRM 算法
 
 ##### Step 1：提取偏移向量
+目标是估计每一层的“偏移方向” $v^l$，有两种粒度：
 1. Dataset-Level：$\mathbf{v}_{\text{data}}^l = \text{PCA} \left( \left\{ \mathbf{h}_t^{l(i)} - \mathbf{h}_c^{l(i)} \right\}_{i=1}^N \right)_{\text{第一主成分}}$
 2. Sample-Level：$\mathbf{v}_{\text{sample}}^{l(i)} = \mathbf{h}_{t}^{l(i)} - \mathbf{h}_{c}^{l(i)}$
+
+##### Step 2：表示校正
+对模型所有层的最后一个 token 的 representation 做减法校正：
+$$h_\text{aligned}^{l(i)} = h_o^{l(i)}-v^l$$

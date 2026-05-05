@@ -45,7 +45,7 @@
 |                   On the Role of Attention Heads in Large Language Model Safety                   | `✅ 读完`  | 🌟🌟🌟🌟🌟 |
 | Spot Risks Before Speaking! Unraveling Safety <br>Attention Heads in Large Vision-Language Models | `✅ 读完`  |    🌟🌟    |
 |                          LLMs Encode Harmfulness and Refusal Separately                           | `✅ 读完`  |  🌟🌟🌟🌟  |
-|       Unraveling and Mitigating Safety Alignment Degradation <br>of Vision-Language Models        | `🔖 待读` |            |
+|       Unraveling and Mitigating Safety Alignment Degradation <br>of Vision-Language Models        | `✅ 读完`  |   🌟🌟🌟   |
 |     Understanding and Defending VLM Jailbreaks via <br>Jailbreak-Related Representation Shift     | `🔖 待读` |            |
 |                                                                                                   |         |            |
 |                                                                                                   |         |            |
