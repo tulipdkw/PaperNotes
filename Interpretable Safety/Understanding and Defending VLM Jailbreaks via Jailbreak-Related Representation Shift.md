@@ -25,4 +25,18 @@ https://aclanthology.org/2025.findings-acl.186.pdf
 
 输入模型，取最后一个 token 在 top-layer 的 hidden state，然后进行 PCA：
 ![[Pasted image 20260505164934.png]]
-发现 2 种纯文本输入和 3 种图文输入的隐藏状态在表示空间截然分离。说明视觉模块的引入把模型内部表示推离了 LLM zhu gan
+发现 2 种纯文本输入和 3 种图文输入的隐藏状态在表示空间截然分离。说明视觉模块的引入把模型内部表示推离了 LLM Backbone 优化的分布，导致安全对齐失效。
+
+#### 形式化建模
+
+假设一个理想中的 VLM 表示既保留视觉信息，又不偏离 LLM 的分布，记为 $h^*(x,img)$
+而当前实际中的 VLM 是 $h(x,img)$
+那么可以有如下建模：$h(x,img)=h^*(x,img)+ \alpha [h(x,img')-h(x)]$
+其中 $img'$ 是空白图像输入，$x$ 是纯文本输入，$\alpha$ 是偏移程度系数
+
+如果“加入空白图像”和“纯文本输入”之间有一个统一的线性偏移方向，那么通过简单计算就可以还原出 $h*$
+
+#### CMRM 算法
+
+##### Step 1：提取偏移向量
+1. Dataset-Level：$v^l_{data}=PCA({})$
