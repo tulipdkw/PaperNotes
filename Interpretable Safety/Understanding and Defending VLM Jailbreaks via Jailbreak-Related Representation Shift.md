@@ -40,4 +40,35 @@ Observation 3：统计越狱相应中包含风险提示的比例，发现模型 
 
 ---
 
-## 
+## Explaining VLM Jailbreaks via the Jailbreak-Related Shift
+
+#### 概念定义
+
+##### 图像诱导的表征偏移
+给定多模态输入 $x=[I,T]$，第 $\ell$ 层的图像诱导总偏移：（多模态输入表征 - 纯文本输入表征）
+$$
+\Delta \mathbf{h}^{(\ell)}(x) = \mathbf{h}^{(\ell)}([I, T]) - \mathbf{h}^{(\ell)}([\emptyset, T])
+$$
+##### 越狱方向
+定义为 Jailbreak Samples 平均表征和 Refused Samples 平均表征之差的归一化向量：
+$$
+\mathbf{d}^{(\ell)} = \frac{\Delta^{(\ell)}}{\|\Delta^{(\ell)}\|_2}, \quad \Delta^{(\ell)} = \boldsymbol{\mu}_{jail}^{(\ell)} - \boldsymbol{\mu}_{ref}^{(\ell)}
+$$
+##### 越狱相关偏移（JRS）
+总偏移投影到越狱方向上的标量分量：
+$$
+s^{(\ell)}(x) = \Delta \mathbf{h}^{(\ell)}(x)^\top \mathbf{d}^{(\ell)}
+$$
+这个标量越大，说明 Vision Modal 导致表征推向越狱状态的力度越大。
+
+#### 跨场景验证
+
+分三个场景验证 JRS 的有效性：
+1. 文本明显 harmful，图像取 MM-SafetyBench 的 SD 和 SD-TYPO
+2. 文本 benign，图像 harmful，用的 SD-TYPO
+3. 对抗攻击：几何变换和梯度 HADES
+![[Pasted image 20260505204735.png]]
+结果：Jailbreak Samples 的 JRS 在所有场景下都显著高于 Refused Samples，而 Benign Samples 的 JRS 值集中在 0 附近。
+
+#### 用 JRS 解释 Jailbreak
+
