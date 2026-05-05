@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
+      "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
+    },
+    {
       "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
       "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
     },
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
-      "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
     },
     {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
