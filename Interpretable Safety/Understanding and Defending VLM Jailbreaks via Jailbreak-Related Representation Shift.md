@@ -87,3 +87,13 @@ $$
 ## JRS-Rem
 
 #### 算法设计
+Step 1：计算每层的 JRS 标量 $s^{(\ell)}(x)$ 及其归一化值 $\tilde{s}^{(\ell)}(x) = s^{(\ell)}(x) / \|\Delta \mathbf{h}^{(\ell)}(x)\|_2$
+Step 2：若归一化 JRS 超过阈值 $\tau$，则从隐藏状态中减去越狱相关分量：
+$$
+\hat{\mathbf{h}}^{(\ell)}(x) = \mathbf{h}^{(\ell)}(x) - s^{(\ell)}(x) \cdot \mathbf{d}^{(\ell)}, \quad \text{s.t.} \quad \tilde{s}^{(\ell)}(x) > \tau
+$$
+==注：只修正第一个生成 token 的前向传播，后续不变保证效率；$\tau$ 固定为 0.2==
+##### 计算效率
+仅需额外 2 次 token 级前向传播（一次文本一次MM），可忽略不计
+##### 越狱方向的预计算
+对每个 VLM，从 HADES 取 50 个越狱样本 + 50 个拒绝样本，预计算各层的 $\mathbf{d}^{(\ell)}$
