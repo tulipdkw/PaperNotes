@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -9,20 +13,16 @@
       "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
     },
     {
+      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
+      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
+    },
+    {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
       "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
     },
     {
       "basename": "On the Role of Attention Heads in Large Language Model Safety",
       "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
-    },
-    {
-      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
-      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
     },
     {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
