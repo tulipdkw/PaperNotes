@@ -101,3 +101,7 @@ Persuasion（说服重写）：harmful belief 本身变低，进入负区间 →
 ## Latent Guard
 
 **设计**：非常简单。给定一条输入指令，计算 Δ_harmful（§3.3），分数为正则判断为有害，为负则判断为无害。聚类中心只需要从训练集采样 100 条有害 + 100 条无害指令来建立。
+
+1. 从训练集中采样100个harmful指令和100个benign指令
+2. 在t_inst位置提取各层hidden state，计算harmful中心和benign中心
+3. 推理时，对指令在t_inst位置计算Δ_harmful，取各层平均
