@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
       "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
     },
     {
       "basename": "Pasted image 20260503175934",
