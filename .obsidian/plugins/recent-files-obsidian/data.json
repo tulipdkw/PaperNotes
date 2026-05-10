@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
       "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
@@ -19,14 +27,6 @@
     {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
       "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Pasted image 20260503175934",
