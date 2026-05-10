@@ -35,5 +35,12 @@ Contributions：
 
 #### 残差流的线性分解
 
+假设 Hidden State 由四个语义分量线性叠加：
+$\mathbf{h} = \mathbf{v}_{base} + \mathbf{v}_{harm} + \mathbf{v}_{refusal} + \mathbf{v}_{art}$
+（基础语言能力、有害语义编码、拒绝行为驱动、结构性噪声）
+
+定义两种状态：
++ Canonical（正常）
++ Masked：用 [[On the Role of Attention Heads in Large Language Model Safety]] 中的 Sahara 算法识别并消融安全头，拒绝机制关闭，$\mathbf{v}_{refusal} 和 \mathbf{v}_{art}$ 清除。
 
 
