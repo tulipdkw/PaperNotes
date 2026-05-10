@@ -41,6 +41,8 @@ $\mathbf{h} = \mathbf{v}_{base} + \mathbf{v}_{harm} + \mathbf{v}_{refusal} + \ma
 
 定义两种状态：
 + Canonical（正常）
-+ Masked：用 [[On the Role of Attention Heads in Large Language Model Safety]] 中的 Sahara 算法识别并消融安全头，拒绝机制关闭，$\mathbf{v}_{refusal} 和 \mathbf{v}_{art}$ 清除。
++ Masked：用 [[On the Role of Attention Heads in Large Language Model Safety]] 中的 Sahara 算法识别并消融安全头，拒绝机制关闭，$\mathbf{v}_{refusal} 和 \mathbf{v}_{art}$ 清除。`为什么安全头清除refusal，难道没有可能也清除harmful吗？`
+
+
 
 
