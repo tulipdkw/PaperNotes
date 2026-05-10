@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "AI Reading Prompt",
       "path": "AI Reading Prompt.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
