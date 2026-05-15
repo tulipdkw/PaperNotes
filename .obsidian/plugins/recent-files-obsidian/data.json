@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "LLMs Encode Harmfulness and Refusal Separately",
-      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
-    },
-    {
-      "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
-      "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
-    },
-    {
-      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
-      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
+      "basename": "On the Role of Attention Heads in Large Language Model Safety",
+      "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
     },
     {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
       "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
     },
     {
-      "basename": "On the Role of Attention Heads in Large Language Model Safety",
-      "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
+      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
+      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
+    },
+    {
+      "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
+      "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
+    },
+    {
+      "basename": "LLMs Encode Harmfulness and Refusal Separately",
+      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
     {
       "basename": "Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models",
