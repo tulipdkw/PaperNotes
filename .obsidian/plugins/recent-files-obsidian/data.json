@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
+      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
+    },
+    {
       "basename": "AI Reading Prompt",
       "path": "AI Reading Prompt.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
       "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
-    },
-    {
-      "basename": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models",
-      "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
     },
     {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
