@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
       "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
       "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
       "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
     },
     {
       "basename": "README",
