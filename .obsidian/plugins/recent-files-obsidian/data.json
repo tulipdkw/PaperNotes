@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "LLMs Encode Harmfulness and Refusal Separately",
       "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
       "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Pasted image 20260503175934",

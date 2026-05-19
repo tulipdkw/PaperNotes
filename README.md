@@ -40,17 +40,17 @@
 
 ### Interpretable Safety
 
-|                                               论文标题                                                |   状态    |    夯/拉？    |
-| :-----------------------------------------------------------------------------------------------: | :-----: | :--------: |
-|                   On the Role of Attention Heads in Large Language Model Safety                   | `✅ 读完`  | 🌟🌟🌟🌟🌟 |
-| Spot Risks Before Speaking! Unraveling Safety <br>Attention Heads in Large Vision-Language Models | `✅ 读完`  |    🌟🌟    |
-|                          LLMs Encode Harmfulness and Refusal Separately                           | `✅ 读完`  |  🌟🌟🌟🌟  |
-|       Unraveling and Mitigating Safety Alignment Degradation <br>of Vision-Language Models        | `✅ 读完`  |   🌟🌟🌟   |
-|     Understanding and Defending VLM Jailbreaks via <br>Jailbreak-Related Representation Shift     | `✅ 读完`  |  🌟🌟🌟🌟  |
-|  Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models  | `📖 在读` |            |
-|                                                                                                   |         |            |
-|                                                                                                   |         |            |
-|                                                                                                   |         |            |
+|                                                              论文标题                                                              |   状态    |    夯/拉？    |
+| :----------------------------------------------------------------------------------------------------------------------------: | :-----: | :--------: |
+|                                 On the Role of Attention Heads in Large Language Model Safety                                  | `✅ 读完`  | 🌟🌟🌟🌟🌟 |
+|               Spot Risks Before Speaking! Unraveling Safety <br>Attention Heads in Large Vision-Language Models                | `✅ 读完`  |    🌟🌟    |
+|                                         LLMs Encode Harmfulness and Refusal Separately                                         | `✅ 读完`  |  🌟🌟🌟🌟  |
+|                      Unraveling and Mitigating Safety Alignment Degradation <br>of Vision-Language Models                      | `✅ 读完`  |   🌟🌟🌟   |
+|                   Understanding and Defending VLM Jailbreaks via <br>Jailbreak-Related Representation Shift                    | `✅ 读完`  |  🌟🌟🌟🌟  |
+|                Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models                 | `📖 在读` |            |
+| Why Safeguarded Ships Run Aground? Aligned Large Language Models’ Safety Mechanisms Tend to Be Anchored in The Template Region | `🔖 待读` |            |
+|                           Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models                            | `🔖 待读` |            |
+|                                                                                                                                |         |            |
 
 ### VLM Safety
 
