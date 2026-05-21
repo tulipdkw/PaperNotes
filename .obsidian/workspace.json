@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Reading Prompt.md",
+                "file": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Reading Prompt"
+              "title": "LLMs Encode Harmfulness and Refusal Separately"
             }
           }
         ]
@@ -206,6 +206,7 @@
   },
   "active": "b76b5d16c6e49a8d",
   "lastOpenFiles": [
+    "AI Reading Prompt.md",
     "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md",
     "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md",
     "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md",
@@ -213,7 +214,6 @@
     "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
     "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md",
     "README.md",
-    "AI Reading Prompt.md",
     "Interpretable Safety/未命名",
     "Interpretable Safety/Images/Pasted image 20260505205620.png",
     "Interpretable Safety/Images/Pasted image 20260505205434.png",
