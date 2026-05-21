@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
+    },
+    {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
       "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
     },
     {
       "basename": "Pasted image 20260503175934",
