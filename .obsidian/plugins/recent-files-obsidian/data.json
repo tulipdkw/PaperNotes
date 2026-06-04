@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "LLMs Encode Harmfulness and Refusal Separately",
-      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
-    },
-    {
       "basename": "AI Reading Prompt",
       "path": "AI Reading Prompt.md"
+    },
+    {
+      "basename": "LLMs Encode Harmfulness and Refusal Separately",
+      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
     {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
