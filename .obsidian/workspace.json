@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md",
+                "file": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs"
+              "title": "LLMs Encode Harmfulness and Refusal Separately"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "b76b5d16c6e49a8d",
   "lastOpenFiles": [
-    "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md",
     "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md",
+    "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md",
     "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md",
     "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
     "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md",

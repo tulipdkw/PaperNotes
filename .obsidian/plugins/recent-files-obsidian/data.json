@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LLMs Encode Harmfulness and Refusal Separately",
+      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
+    },
+    {
       "basename": "Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs",
       "path": "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "AI Reading Prompt",
       "path": "AI Reading Prompt.md"
-    },
-    {
-      "basename": "LLMs Encode Harmfulness and Refusal Separately",
-      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
     },
     {
       "basename": "On the Role of Attention Heads in Large Language Model Safety",
