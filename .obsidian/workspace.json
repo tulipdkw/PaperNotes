@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Reading Prompt.md",
+                "file": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Reading Prompt"
+              "title": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift"
             }
           }
         ]
@@ -206,16 +206,16 @@
   },
   "active": "b76b5d16c6e49a8d",
   "lastOpenFiles": [
-    "README.md",
-    "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md",
-    "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md",
-    "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md",
-    "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md",
-    "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
-    "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md",
     "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md",
-    "AI Reading Prompt.md",
+    "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md",
+    "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md",
+    "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md",
+    "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md",
+    "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md",
     "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md",
+    "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md",
+    "README.md",
+    "AI Reading Prompt.md",
     "Interpretable Safety/未命名",
     "Interpretable Safety/Images/Pasted image 20260505205620.png",
     "Interpretable Safety/Images/Pasted image 20260505205434.png",

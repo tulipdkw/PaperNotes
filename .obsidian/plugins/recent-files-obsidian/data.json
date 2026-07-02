@@ -1,34 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "AI Reading Prompt",
-      "path": "AI Reading Prompt.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "LLMs Encode Harmfulness and Refusal Separately",
-      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
-    },
-    {
-      "basename": "Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs",
-      "path": "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md"
-    },
-    {
-      "basename": "A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models",
-      "path": "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md"
-    },
-    {
-      "basename": "Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models",
-      "path": "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md"
-    },
-    {
-      "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
-      "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
-    },
-    {
       "basename": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
       "path": "Interpretable Safety/Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift.md"
     },
@@ -37,8 +9,36 @@
       "path": "Interpretable Safety/Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models.md"
     },
     {
+      "basename": "Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models",
+      "path": "Interpretable Safety/Spot Risks Before Speaking! Unraveling Safety Attention Heads in Large Vision-Language Models.md"
+    },
+    {
+      "basename": "Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs",
+      "path": "Interpretable Safety/Over-Refusal and Representation Subspaces：A Mechanistic Analysis of Task-Conditioned Refusal in Aligned LLMs.md"
+    },
+    {
+      "basename": "Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models",
+      "path": "Interpretable Safety/Knowing without Acting： The Disentangled Geometry of Safety Mechanisms inLarge Language Models.md"
+    },
+    {
+      "basename": "A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models",
+      "path": "Interpretable Safety/A Single Neuron Is Sufficient to Bypass SafetyAlignment in Large Language Models.md"
+    },
+    {
+      "basename": "LLMs Encode Harmfulness and Refusal Separately",
+      "path": "Interpretable Safety/LLMs Encode Harmfulness and Refusal Separately.md"
+    },
+    {
       "basename": "On the Role of Attention Heads in Large Language Model Safety",
       "path": "Interpretable Safety/On the Role of Attention Heads in Large Language Model Safety.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "AI Reading Prompt",
+      "path": "AI Reading Prompt.md"
     },
     {
       "basename": "Pasted image 20260503175934",
